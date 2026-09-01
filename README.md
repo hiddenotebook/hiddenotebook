@@ -2,23 +2,28 @@
 
 I build practical systems with **Python, Linux, Raspberry Pi, APIs and AI**, with a strong interest in automation, real-time data and reliable software infrastructure.
 
-## 🚀 Current focus
+## 🚀 Featured project
 
 ### AleyNode
 
-I'm currently developing **AleyNode**, a private real-time market intelligence and analysis platform.
+I'm currently developing **AleyNode**, a private self-hosted cryptocurrency market-intelligence platform for **spot portfolio monitoring** and **short-horizon futures analysis**.
 
-The project brings together:
+AleyNode combines:
 
-- Real-time data collection and processing
-- Python backend services and REST APIs
-- Multi-source market and derivatives analysis
-- Linux / Raspberry Pi infrastructure
-- Monitoring, validation and service reliability
+- Real-time data from Binance and Bybit
+- Multi-timeframe technical analysis
+- Spot portfolio monitoring with Portfolio Guardian
+- Futures microstructure, taker flow, open interest, funding and positioning
+- Data-quality and freshness validation
+- Health and readiness monitoring
+- Python / FastAPI backend services
+- Raspberry Pi / Linux production infrastructure
 - Git and GitHub-based development workflows
-- AI-assisted analysis and decision support
+- AI-assisted analyst review and decision support
 
-My focus is not only on building features, but on making the complete system **reliable, observable and maintainable**.
+The system deliberately separates **data collection**, **analysis**, and **real-money decision making**.
+
+My focus is on making AleyNode **reliable, observable, recoverable and maintainable**, not just feature-rich.
 
 ## 🛠 Tech & tools
 
@@ -33,15 +38,6 @@ Git · GitHub · REST APIs · systemd
 
 **Areas of interest**  
 Automation · AI · Real-time Systems · Data Analysis · Embedded Systems
-
-## 🔭 Currently working on
-
-- Reliable Python services
-- Real-time data pipelines
-- API integrations
-- Monitoring and observability
-- Raspberry Pi infrastructure
-- AI-assisted software and data analysis
 
 ## 🌱 Philosophy
 
