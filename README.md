@@ -21,9 +21,9 @@ AleyNode currently combines:
 
 The design principle is simple:
 
-> **Data layer → analysis layer → human decision**
+> **Data layer → analysis layer → controlled execution**
 
-AleyNode does not autonomously place trades. The backend provides structured evidence; the analyst reasons over it; the user remains the final authority for real-money actions.
+Today, AleyNode runs in a human-authorized decision-support mode: the backend provides structured evidence, the analyst reasons over it, and the user approves real-money actions. The architecture intentionally leaves room for a future optional execution layer through exchange APIs, with explicit opt-in, scoped permissions, risk limits, safeguards, auditability and a kill switch.
 
 ## 🧱 What I care about
 
