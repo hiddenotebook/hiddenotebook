@@ -21,7 +21,7 @@ Current engineering work includes:
 - server-rendered interfaces with Jinja and lightweight HTMX
 - reusable business modules, background jobs and transactional integrations
 - backup, recovery, observability and deployment design
-- dedicated **x86-64 AleyWeb server infrastructure** separated from market-intelligence systems
+- a dedicated x86-64 **AleyWeb Host 01** production target, separated from market-intelligence systems
 
 ### 📈 AleyBroker
 
@@ -68,7 +68,7 @@ I prefer systems that are:
 ## 🔬 Current focus
 
 - turning AleyWeb into a reusable, production-ready multi-tenant platform
-- commissioning dedicated AleyWeb infrastructure with clear isolation, recovery and monitoring boundaries
+- live-verifying and commissioning **AleyWeb Host 01** with clear isolation, recovery and monitoring boundaries before customer production
 - evolving the current market-intelligence runtime toward **AleyBroker Core**
 - building reliable automation that preserves human control where consequences matter
 - improving production discipline around testing, backups, observability and rollback
