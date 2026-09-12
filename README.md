@@ -1,31 +1,45 @@
 # Hi, I'm hiddenotebook 👋
 
-I build practical systems with **Python, Linux, APIs, real-time data and AI**.
+I build practical, self-hosted systems with **Python, Linux, APIs, real-time data and AI**.
 
-My projects tend to sit where software engineering, automation, observability and data analysis meet: ingesting live information, turning it into structured evidence, and building reliable tools around it.
+My work sits at the intersection of software engineering, automation, observability, data infrastructure and applied AI: turning live information into reliable services, structured evidence and useful products.
 
-## 🚀 Featured project: AleyNode
+## 🚀 Building AleyNode
 
-**AleyNode** is a private investment-intelligence project I use to explore real-time data engineering, quantitative research, portfolio risk and AI-assisted decision support.
+**AleyNode** is the company and umbrella technology brand behind two product lines:
 
-The public description is intentionally high-level. Internal architecture, service topology, decision logic, operational controls, research implementation and execution design are not published.
+### 🌐 AleyWeb
+
+A self-hosted website and digital-business platform for small businesses, designed around reusable services rather than one-off sites.
+
+Current engineering work includes:
+
+- multi-tenant application architecture
+- persistent browser authentication and session security
+- authorization, CSRF protection and tenant isolation
+- PostgreSQL-backed platform state
+- server-rendered interfaces with Jinja and lightweight HTMX
+- reusable business modules, background jobs and transactional integrations
+- backup, recovery, observability and deployment design
+- dedicated **x86-64 AleyWeb server infrastructure** separated from market-intelligence systems
+
+### 📈 AleyBroker
+
+A portfolio-guardian and market-intelligence platform focused on real-time evidence, risk and decision support.
+
+It brings together:
+
+- live multi-venue crypto market data
+- spot and derivatives analysis with explicit separation
+- portfolio monitoring and risk context
+- market radar, alerts and event-driven review pipelines
+- historical replay and quantitative research
+- data freshness, quality and degraded-state checks
+- AI-assisted analysis with explicit safety and execution boundaries
 
 Public principle:
 
 > **Data → Analysis → Risk → Decision**
-
-What the project demonstrates from an engineering perspective:
-
-- real-time data ingestion and normalization
-- asynchronous Python services
-- REST and WebSocket integrations
-- time-series and stateful data processing
-- API design with FastAPI
-- observability, health and freshness checks
-- deterministic testing and reproducible research
-- automation with Linux and systemd
-- AI-assisted analysis with explicit safety boundaries
-- Git-based development, documentation and rollback discipline
 
 ## 🧱 Engineering principles
 
@@ -33,38 +47,31 @@ I prefer systems that are:
 
 - **Reliable** — failures should be visible and bounded
 - **Observable** — health, freshness and degraded states should be explicit
-- **Recoverable** — changes should be reversible
-- **Maintainable** — clear boundaries and versioned behavior
+- **Recoverable** — changes should be reversible and backups should be testable
+- **Maintainable** — clear boundaries, documented decisions and versioned behavior
 - **Testable** — important behavior should be protected by deterministic tests
-- **Safe by design** — secrets and privileged operations stay narrowly scoped
-- **Evidence-driven** — negative results are useful when they prevent bad decisions
+- **Secure by design** — secrets, customer data and privileged operations stay narrowly scoped
+- **Evidence-driven** — negative results are valuable when they prevent bad decisions
 
 ## 🛠 Tech & tools
 
-**Languages**
-Python · C++
+**Languages:** Python · C++
 
-**Backend & data**
-FastAPI · REST APIs · WebSockets · SQLite · time-series data · real-time processing
+**Backend & web:** FastAPI · REST APIs · WebSockets · Jinja · HTMX
 
-**Systems**
-Linux · systemd · Raspberry Pi · Arduino
+**Data:** PostgreSQL · SQLite · time-series data · real-time processing
 
-**Infrastructure & workflow**
-Git · GitHub · Cloudflare · SSH · automated testing · deployment tooling
+**Systems & infrastructure:** Linux · systemd · dedicated x86-64 servers · Cloudflare · SSH · GitHub Actions · automated testing · deployment tooling
 
-**Areas of interest**
-Automation · AI · Real-time Systems · Data Engineering · Quantitative Research · Observability · Embedded Systems · Market Infrastructure · Portfolio Risk
+**Areas of interest:** Automation · AI · Real-time Systems · Data Engineering · Quantitative Research · Observability · Security · Market Infrastructure · Portfolio Risk · Self-hosted Platforms
 
-## 🔬 What I enjoy building
+## 🔬 Current focus
 
-- resilient data pipelines
-- monitoring and audit tooling
-- small self-hosted services
-- research and replay systems
-- automation that removes repetitive work
-- interfaces between AI models and structured data
-- systems where correctness and failure handling matter
+- turning AleyWeb into a reusable, production-ready multi-tenant platform
+- commissioning dedicated AleyWeb infrastructure with clear isolation, recovery and monitoring boundaries
+- evolving the current market-intelligence runtime toward **AleyBroker Core**
+- building reliable automation that preserves human control where consequences matter
+- improving production discipline around testing, backups, observability and rollback
 
 ## 🌱 Philosophy
 
